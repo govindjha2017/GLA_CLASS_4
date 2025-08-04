@@ -1,0 +1,8 @@
+git config --global user.email "your_name"
+git config --global user.email "your_email"
+
+git init  (only first time)
+git remote add origin "Github_repo_URL" (only first)
+git add .
+git commit -m "kuchhBhiMsg"
+git push origin master
