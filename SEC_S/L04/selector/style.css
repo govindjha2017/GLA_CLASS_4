@@ -1,0 +1,40 @@
+/* Element selector */
+
+p{
+    color: violet;
+}
+
+/* id selector */
+
+#spclPara{
+    color: aqua;
+}
+
+/* Class Selctor */
+
+.para{
+    color: green;
+}
+
+.para{
+    color: gold;
+}
+
+/* id > Class > element > universal*/
+
+/* Universal selctor */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* attribute Selector */
+
+a[href="def"]{
+    color: black;
+}
+
+p[class="para"]{
+    color: grey;
+}
