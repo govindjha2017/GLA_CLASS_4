@@ -1,0 +1,42 @@
+/* element selector */
+
+p{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+/* Class selector */
+
+.para{
+    color: aqua;
+}
+
+.abc{
+    color: brown;
+}
+
+/* id selctor */
+
+#spclPara{
+    color: violet;
+}
+
+/* id > class >element */
+
+/* universal selector */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* attribute selector */
+
+a[href="https://www.google.com/"]{
+    color: aquamarine;
+}
+
+/* id> attribute > class > element > universal  */

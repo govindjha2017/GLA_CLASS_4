@@ -1,0 +1,16 @@
+ 
+ div p{
+    color: green;
+ }
+
+ p.Para{
+    color: aqua;
+ }
+
+ 
+
+ /* child Selector */
+
+ul>li{
+    color: blueviolet;
+}
