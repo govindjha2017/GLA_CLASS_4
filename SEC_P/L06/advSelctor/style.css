@@ -1,0 +1,82 @@
+ 
+ div p{
+    color: green;
+ }
+
+ p.Para{
+    color: aqua;
+ }
+
+ 
+
+ /* child Selector */
+
+/* ul>li{
+    color: blueviolet;
+} */
+
+/* immediate sibling */
+
+/* #city{
+   color: greenyellow;
+}
+
+li#city+li{
+   color: darkblue;
+} */
+
+
+/* li+li{
+   color: aquamarine;
+} */
+
+/* gneral sibling */
+
+/* li#city~li{
+    color: blueviolet;
+} */
+
+/* psuedo class */
+
+nav{
+   background-color: black;
+   height: 50px;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+/* l v h a */
+
+nav a {
+   margin-left: 20px;
+}
+
+nav a:link{
+   color: white;
+}
+nav a:hover{
+   color: yellow;
+}
+
+nav a:active{
+   color: red;
+}
+
+nav a:visited{
+   color: green;
+}
+
+/* ol li:first-child{
+   color: aquamarine;
+}
+
+ol li:last-child{
+   color: brown;
+} */
+
+ol li:nth-child(2n+1){
+   color: brown;
+}
