@@ -1,0 +1,56 @@
+/* p{
+    color: red;
+} */
+
+/* descendnet selector */
+
+div p{
+    color: blue;
+}
+
+p.para{
+    color: aqua;
+}
+
+/* child selctor */
+
+ul>li{
+    color: magenta;
+}
+
+/* immediate sibling */
+
+/* #favCity + li{
+    color: chartreuse;
+} */
+
+li+li+li{
+    color: brown;
+}
+
+/* general sibling */
+
+/* #favCity ~ li{
+    color: green;
+} */
+
+
+/* psuedo class */
+
+/* l v h a */
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: greenyellow;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: red;
+}

@@ -1,0 +1,39 @@
+/* descendent selctor */
+
+div p{
+    color: aqua;
+}
+
+.para{
+    color: blue;
+}
+
+p.para{
+    color: brown;
+    
+}
+
+/* ul li{
+    color: blueviolet;
+} */
+
+/* child selector */
+
+ul>li{
+    color: aquamarine;
+}
+
+/* immediate sibling */
+
+#favCity + li{
+    color: brown;
+}
+
+/* general sibling */
+
+#favCity ~ li{
+    color: blue;
+}
+
+
+/* psuedo element */
