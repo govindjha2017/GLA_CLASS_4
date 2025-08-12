@@ -1,0 +1,18 @@
+
+/* L V H A */
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: red;
+}
+

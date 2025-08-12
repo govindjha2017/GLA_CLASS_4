@@ -1,0 +1,28 @@
+p{
+    border: 2px solid red;
+    padding: 10px;
+    padding: 10px 20px 30px 40px;
+    padding: 10px 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 10px;
+    
+    margin: 10px 30px 10px 10px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    border: 2px solid black;
+    margin-top: 15px;
+}

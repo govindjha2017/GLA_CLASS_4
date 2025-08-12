@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    border: 2px solid red;
+    padding: 50px;
+    padding: 10px 20px 30px 40px ;
+    padding: 10px 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: 20px;
+
+    margin: 10px;
+    margin: 10px 20px 0px 10px;
+}
+
+div{
+    border: 2px solid magenta;
+    border-radius: 20px;
+    margin-top: 20px;
+}

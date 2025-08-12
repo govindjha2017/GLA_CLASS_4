@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#parent{
+    border: 2px solid black;
+    height: 200vh;
+}
+
+.child{
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+}
+
+.child1{
+    position: relative;
+    left: 120px;
+    top: 200px;
+}
+
+.child2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.child3{
+    background-color: lightgreen;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.child4{
+    position: sticky;
+    left: 150px;
+     
+    top: 0px;
+}
