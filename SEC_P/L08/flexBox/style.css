@@ -1,0 +1,41 @@
+.child{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+
+    /* display: inline-block; */
+}
+
+.container{
+    border: 2px solid green;
+    height: 90vh;
+    display: flex;
+    /* flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: end;
+    justify-content: start;
+
+
+    /* align-items: center;
+    align-items: end;
+    align-items: start;
+    align-items: stretch;
+    align-items: center; */
+    align-items: baseline;
+
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* .child3{
+    padding: 20px;
+} */

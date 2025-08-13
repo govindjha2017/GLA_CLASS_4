@@ -1,22 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-#parent{
-    border: 2px solid black;
-    height: 200vh;
-}
-
 .child{
-    border: 2px solid red;
     height: 100px;
     width: 100px;
+    border: 2px solid red;
+}
+
+#container{
+    border: 2px solid green;
+    height: 200vh;
+    position: relative;
 }
 
 .child1{
     position: relative;
     left: 200px;
-    top: 200px;
+    top: 100px;
 }
 
 .child2{
@@ -26,15 +23,12 @@
 }
 
 .child3{
-    /* background-color: lightgreen; */
     position: fixed;
-    top: 0;
+    top: 200px;
     left: 400px;
 }
 
 .child4{
     position: sticky;
-     
-     
-    top: 0px;
+    top: 20px;
 }
