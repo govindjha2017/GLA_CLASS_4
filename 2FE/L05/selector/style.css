@@ -1,0 +1,38 @@
+/* Element selector */
+
+p{
+    color: blue;
+}
+
+/* id selector */
+
+#spclPara{
+    color: brown;
+}
+
+#spclPara{
+    color: red;
+}
+/* class selector */
+
+.para{
+    color: magenta;
+}
+
+
+/* id>attribute>class>element>universal */
+
+
+/* universal selector */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* attribute selector */
+
+a[href="https://www.google.com/"]{
+    color: brown;
+}
