@@ -1,0 +1,68 @@
+/* descendent selector */
+
+div p{
+    color: red;
+}
+
+p.para{
+    color: blue;
+}
+
+div.para{
+    color: aqua;
+}
+
+/* Child selector */
+
+/* ul>li{
+    color: red;
+} */
+
+/* immediate sibling */
+
+/* .favCity + li{
+     color: blueviolet;
+} */
+
+li + li{
+    color: brown;
+}
+
+
+/* general sibling */
+
+.favCity ~ li{
+    color: blue;
+}
+
+
+/* pseudo element */
+
+/* L V H A */
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: greenyellow;
+}
+
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: red;
+}
+
+
+ol li:first-child{
+    color: magenta;
+}
+
+ol li:last-child{
+    color: teal;
+}
+
+ol li:nth-child(2n+1){
+    color: gold;
+}
