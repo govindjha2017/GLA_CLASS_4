@@ -1,0 +1,18 @@
+.child{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}
+
+.container{
+    border: 2px solid green;
+}
+
+.child2{
+    float: right;
+}
+
+.child1{
+    float: left;
+    height: 150px;
+}
