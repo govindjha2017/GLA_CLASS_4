@@ -1,0 +1,10 @@
+.container{
+    height: 60vh;
+    border: 2px solid green;
+    width: 50vw;
+}
+
+.child{
+    border: 2px solid red;
+    height: 90%;
+}
