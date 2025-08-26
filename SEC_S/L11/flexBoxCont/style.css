@@ -1,0 +1,22 @@
+.child{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}
+
+.container{
+    border: 2px solid green;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* gap: 20px 50px; */
+}
+
+.child2{
+    order: -1;
+    flex-shrink: 5;
+}
+
+.child3{
+    order: 10;
+}
