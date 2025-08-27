@@ -1,0 +1,38 @@
+.container{
+    height: 90vh;
+    border: 2px solid greenyellow;
+    display: grid;
+
+    grid-template-columns: repeat(4,100px) 150px;
+    grid-template-rows: 2fr 1fr 2fr 1fr 2fr;
+
+    grid-template-areas: 
+    "a1 a1 a2 a2 a2"
+    "a1 a1 a3 a3 a3"
+    "a1 a1 a3 a3 a3"
+    "a4 a4 a4 a5 a5"
+    "a4 a4 a4 a5 a5";
+}
+
+.child1{
+    background-color: aquamarine;
+    grid-area: a1;
+}
+
+.child2{
+    background-color: teal;
+    grid-area: a2;
+}
+.child3{
+    background-color: magenta;
+    grid-area: a3;
+}
+.child4{
+    background-color: blueviolet;
+    grid-area: a4;
+}
+
+.child5{
+    background-color: chartreuse;
+    grid-area: a5;
+}

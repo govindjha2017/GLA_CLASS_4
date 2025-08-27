@@ -1,0 +1,11 @@
+.container{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    /* margin: 20px auto; */
+    margin: 100px auto;
+
+    /* box-shadow: -10px -10px 20px black , 10px 10px 20px black; */
+
+    box-shadow: 10px 5px 20px black;
+}
