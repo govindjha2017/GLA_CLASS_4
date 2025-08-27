@@ -1,0 +1,10 @@
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 100px auto;
+
+    /* box-shadow: -10px -10px 20px black , 10px 10px 20px black; */
+
+    box-shadow: 15px 10px 20px black;
+}
