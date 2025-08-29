@@ -1,0 +1,42 @@
+.container{
+    height: 90vh;
+    width: 70vw;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 100px 50px 100px 50px 150px;
+    /* grid-template-rows: 100px 100px 100px 100px 50px; */
+    grid-template-rows: repeat(4,100px) 50px;
+
+    grid-template-areas: 
+    "a1 a1 a2 a2 a2"
+    "a1 a1 a3 a3 a3"
+    "a1 a1 a3 a3 a3"
+    "a4 a4 a4 a5 a5"
+    "a4 a4 a4 a5 a5";
+}
+
+
+.child1{
+    background-color: yellow;
+    grid-area: a1;
+}
+
+.child2{
+    background-color: purple;
+    grid-area: a2;
+}
+
+.child3{
+    background-color: skyblue;
+    grid-area: a3;
+}
+
+.child4{
+    background-color: lightgreen;
+    grid-area: a4;
+}
+
+.child5{
+    background-color: brown;
+    grid-area: a5;
+}
