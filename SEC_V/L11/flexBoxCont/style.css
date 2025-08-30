@@ -1,0 +1,26 @@
+.container{
+    border: 2px solid green;
+    display: flex;
+
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
+
+    /* flex-wrap: wrap; */
+    /* gap: 20px; */
+    gap: 10px 30px;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    border:2px solid red;
+}
+
+.child3{
+    order: -1;
+    flex-shrink: 5;
+}
+
+.child2{
+    order: 5;
+}
