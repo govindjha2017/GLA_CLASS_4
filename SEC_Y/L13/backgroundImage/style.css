@@ -1,0 +1,23 @@
+.container{
+    height: 90vh;
+    width: 80vw;
+    border: 2px solid green;
+
+    /* background-color: yellow; */
+    /* background-image: url('https://plus.unsplash.com/premium_photo-1673697240011-76f7f9220300?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+
+    background-image: url('https://static.toiimg.com/thumb/msid-57375118,width-400,resizemode-4/57375118.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -100px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 2em;
+    color: red;
+}
