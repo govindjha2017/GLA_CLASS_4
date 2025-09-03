@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    background-image: url('./img/Space.png');
+    background-size: cover;
+    background-color: skyblue;
+
+    animation-name: bgMove;
+    animation-duration: 6s;
+}
+
+@keyframes bgMove{
+    100%{
+        background-position: -6000px;
+    }
+}
