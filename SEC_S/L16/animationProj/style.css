@@ -10,6 +10,7 @@
 
     animation-name: bgMove;
     animation-duration: 6s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes bgMove{
@@ -17,3 +18,82 @@
         background-position: -6000px;
     }
 }
+
+.rocket{
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid red; */
+    transform: rotate(45deg);
+    position: absolute;
+    left: 400px;
+    bottom: 200px;
+
+    animation: rocketMove 2s linear 3 forwards,
+               rotateRocket 1s ease-in-out 10.5s forwards,
+               rocketlaunch 2s ease-in 12s forwards;
+}
+
+.rocket img{
+    height: 100%;
+}
+
+@keyframes rotateRocket{
+    100%{
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes rocketlaunch{
+    100%{
+        bottom: 200vh;
+    }
+}
+
+
+@keyframes rocketMove{
+    0%{
+        bottom: 200px;
+    }
+    25%{
+        bottom: 300px;
+    }
+    50%{
+        bottom: 200px;
+    }
+    75%{
+       bottom: 100px;
+    }
+    100%{
+       bottom: 200px
+    }
+}
+
+.cody{
+    height: 150px;
+    width: 100px;
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 220px;
+    left: -500px;
+
+    animation: codyMove 4s ease-in-out 4s forwards,
+                codyInRocket 1s ease-out 9s forwards;
+}
+
+.cody img{
+    height: 100%;
+}
+
+@keyframes codyMove{
+    100%{
+        left: 300px
+    }
+}
+
+@keyframes codyInRocket{
+    100%{
+        left: 500px;
+        transform: scale(0);
+    }
+}
+
