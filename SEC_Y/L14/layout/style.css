@@ -1,0 +1,14 @@
+div{
+    border: 2px solid red;
+    width: 300px;
+    margin-top: 200px;
+    display: inline;
+}
+
+span{
+    border: 2px solid red;
+    width: 300px;
+    margin-top: 100px;
+    /* display: block; */
+    display: inline-block;
+}
