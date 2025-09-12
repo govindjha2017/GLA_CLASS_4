@@ -1,0 +1,29 @@
+.child{
+    border: 2px solid red;
+    display: none;
+}
+
+@media (max-width:400px){
+    .child1{
+        display: block;
+    }
+}
+
+@media (min-width:401px) and (max-width:600px){
+    .child2{
+        display: block;
+    }
+}
+
+
+@media (min-width:601px) and (max-width:800px){
+    .child3{
+        display: block;
+    }
+}
+
+@media (min-width:801px){
+    .child4{
+        display: block;
+    }
+}
