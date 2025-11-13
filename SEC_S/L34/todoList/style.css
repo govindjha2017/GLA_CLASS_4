@@ -1,0 +1,32 @@
+.container{
+    border: 2px solid red;
+    width: 50vw;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#inp{
+    width: 70%;
+    padding: 5px;
+}
+#btn{
+    width: 20%;
+    padding: 5px;
+}
+
+.section-A p{
+    display: inline;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.section-A{
+    margin-left: 30px;
+}
+.section-B{
+    margin-right: 30px;
+}
