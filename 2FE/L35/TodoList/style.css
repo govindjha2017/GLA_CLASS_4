@@ -1,0 +1,22 @@
+.container{
+    border: 2px solid red;
+    width: 40vw;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.task{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#inp{
+    width: 70%;
+    padding: 5px;
+}
+
+#btn{
+    padding: 5px;
+}
